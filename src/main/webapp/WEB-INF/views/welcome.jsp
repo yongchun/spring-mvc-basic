@@ -17,6 +17,7 @@
 <div class="container">  
 	<h1>
 		<fmt:message key="welcome.title"/>
+        <fmt:message key="welcome.i18n"/>
 	</h1>
 	<p>
 		Locale = ${pageContext.response.locale}
