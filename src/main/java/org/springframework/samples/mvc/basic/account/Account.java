@@ -16,8 +16,8 @@ public class Account {
 	
 	private Long id;
 	
-	@NotNull
-	@Size(min=1, max=25)
+	@NotNull(message = "name不能为空")
+	@Size(min=1, max=25,message="name的长度是1到25")
 	private String name;
 	
 	@NotNull
